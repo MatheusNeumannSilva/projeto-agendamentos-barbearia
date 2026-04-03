@@ -1,9 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(./assets/dubarber.png);
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
-  height: 100vh;
 }
 
 h1 {
@@ -13,7 +18,7 @@ h1 {
   font-weight: 900;
   font-size: 130px;
   top: 5%;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,27 +29,64 @@ h1 div {
   color: #c8a000;
 }
 
+.subtitle {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-top: 5px;
+}
+
 ul {
   color: #c8a000;
-  font-size: 40px;
-  margin-top: 28px;
+  font-size: 30px;
+  margin-top: 10px;
   font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 li p {
   color: white;
+  margin: 0;
+  padding: 2px 0;
+}
+
+.contact {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.wpp {
+  font-size: 30px;
+  margin-top: 5px;
+  color: #ddd;
+  margin-left: -40px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.wpp a {
+  display: inline;
+  color: #c8a000;
 }
 
 .lado-direito {
   display: flex;
   flex-direction: column;
   align-items: center; /* centraliza tudo na mesma linha vertical */
-  gap: 20px;
+  gap: 10px;
   width: 50%; /* ocupa metade direita da tela */
   margin-left: auto; /* empurra para a direita */
   padding: 0px 0px 20px 0;
-  margin-top: -70px;
-  transform: scale(0.93);
+  margin-top: -100px;
+  transform: scale(0.8);
+  padding-bottom: 0;
 }
 
 .container {
@@ -68,6 +110,7 @@ li p {
   box-shadow: 0 4px 20px rgba(200, 160, 0, 0.4);
   width: 100%; /* mesma largura do h1 */
   max-width: 450px; /* limita para não ficar gigante */
+  margin-top: 10px;
 }
 
 .container-map {
@@ -78,28 +121,88 @@ li p {
 .container-map iframe {
   width: 100%;
   height: 350px;
-  border: 5px solid #ddd;
+  border: 5px solid #979595;
   border-radius: 15px;
   display: block;
 }
 
 #social-links {
   padding-top: 100;
-  color: #ddd;
+  color: white;
   gap: 6px;
   font-size: 24px;
-  margin-right: 244px;
+  margin-left: -250px;
   display: flex;
   align-items: center;
   line-height: 1;
 }
 
 #social-links a {
-  color: #ddd;
+  color: white;
   font-family: "Scope One", sans-serif;
   text-decoration: none;
   display: flex;
   align-items: center;
   font-size: 20px;
   font-weight: 900;
+}
+
+.newsection {
+  width: 100%;
+  background-color: grey; /* cor de fundo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.newsection h2 {
+  font-family: "New Rocker", system-ui;
+  font-weight: 900;
+  font-size: 130px;
+  margin: 100px;
+}
+
+.barber-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.barber-pic img {
+  width: 480px;
+  object-fit: cover;
+  padding: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 480px;
+  object-fit: cover;
+}
+
+.card p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-2 img {
+  width: 480px;
+  object-fit: cover;
+}
+
+.card-2 p {
+  width: 480px;
+  object-fit: cover;
 }
