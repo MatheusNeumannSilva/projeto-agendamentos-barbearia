@@ -240,10 +240,11 @@ li p {
 .team {
   font-size: 60px;
   font-family: "Open Sans", sans-serif;
+  color: #c8a000;
   font-weight: 600;
   position: relative;
   top: 50px;
-  margin: 0 0 50px 0;
+  margin: 0 0 -5px 0;
 }
 
 h2 span {
