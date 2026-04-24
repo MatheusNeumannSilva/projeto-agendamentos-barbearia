@@ -301,29 +301,6 @@ h2 span {
   padding-left: 21px;
 }
 
-.card-2 {
-  display: flex;
-  flex-direction: column;
-  width: 480px;
-}
-
-.card-2 img {
-  width: 480px;
-  object-fit: cover;
-  height: 700px;
-}
-
-.card-2 p {
-  width: 480px;
-  object-fit: cover;
-  font-size: 24px;
-  font-family: "Scope One", sans-serif;
-  font-weight: 500;
-  color: #ddd;
-  text-align: left;
-  padding-left: 21px;
-}
-
 .exp p {
   color: #c9a410;
   margin-bottom: 3rem;
